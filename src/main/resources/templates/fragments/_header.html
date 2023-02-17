@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${pageTitle}"></title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<header th:fragment="header">
+
+    <nav>
+        <ul>
+            <li><a th:href="@{/}"><img th:src="@{/img/catEmoji.png}" width="40px" height="50px" id="catLogo"/></a></li>
+            <li><a th:href="@{/steps/step1}">Step 1: Finding a Cat</a></li>
+            <li><a th:href="@{/steps/step2}">Step 2: Finding a Hat/Bowl</a></li>
+            <li><a th:href="@{/steps/step3}">Step 3: Installing Bowl on Cat</a></li>
+            <li><a th:href="@{/success/successPage}">Success!</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+</body>
+</html>

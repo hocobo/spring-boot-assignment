@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='How To Put a Bowl on a Cat')}">
+</head>
+<body>
+<div th:insert="~{fragments/_header::header}"></div>
+<h2>
+    Giving Your Cat a Hat
+</h2>
+<p>
+    This website has been tailored to inform the reader on how to place a bowl on their cat's head
+in 3 simple steps!
+</p>
+<img class="center" th:src="@{/img/mlemCat.jpg}" alt="Cat sticking out their tongue" width="167" height="284">
+<div th:replace="~{fragments/_footer::footer}"></div>
+</body>
+</html>

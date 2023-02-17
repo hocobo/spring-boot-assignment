@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="~{fragments/_header :: head(pageTitle='Step 2: Finding a Hat/Bowl')}">
+</head>
+<body>
+<div th:insert="~{fragments/_header::header}"></div>
+<h2>Success!</h2>
+<p>If all the steps were followed correctly you have successfully placed a bowl on your cat's head. Congratulations!</p>
+<img class="center" th:src="@{/img/cowDog.jpg}" alt="A dog in a cow costume" width="252" height="336">
+<div th:insert="~{fragments/_footer::footer}"></div>
+
+</body>
+</html>

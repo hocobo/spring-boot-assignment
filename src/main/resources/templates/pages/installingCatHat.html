@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Step 3: Installing the Cat Hat')}">
+</head>
+<body>
+<div th:insert="~{fragments/_header::header}"></div>
+<h2>Installing Bowl on Cat</h2>
+<p>This last step involves incorporating the two previous steps by taking the bowl and placing it on your cat's head.
+Make sure to not harm the cat in this placement. The end result should look similar to the image below. </p>
+<img class="center" th:src="@{/img/bowlCat.jpg}" alt="Cat with bowl on her head" width="131" height="258" >
+<div th:replace="~{fragments/_footer::footer}"></div>
+</body>
+
+</html>

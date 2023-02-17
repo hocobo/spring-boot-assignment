@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="~{fragments/_header :: head(pageTitle='Step 1: Finding a Cat')}">
+</head>
+<body>
+<div th:insert="~{fragments/_header::header}"></div>
+<h2>Finding a Cat</h2>
+<p>This first step involves finding yourself a cat that is willing to have a hat/bowl placed on their head. Any cat
+would be acceptable for this step.</p>
+<img class="center" th:src="@{/img/naughtyCat.jpg}" alt="Naughty Cat" width="252" height="336">
+<div th:replace="~{fragments/_footer::footer}"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="~{fragments/_header :: head(pageTitle='Step 2: Finding a Hat/Bowl')}">
+</head>
+<body>
+<div th:insert="~{fragments/_header::header}"></div>
+<h2>Finding a Hat or Bowl</h2>
+<p>In order to place a hat or bowl on your cat's head, you will first need to find said hat/bowl.
+This can be achieved by looking through your cabinets for a bowl that is not to heavy and also fits your cats head
+</p>
+<img class="center" th:src="@{/img/bowl.jpg}" alt="Bowl" width="252" height="336">
+<p>For this demonstration, I chose a small plastic bowl that would not be too bulky for my cat.</p>
+<div th:replace="~{fragments/_footer::footer}"></div>
+</body>
+</html>
